@@ -26,7 +26,9 @@ $(window).on('load', function() {
 
 
     /*======== Isotope Portfolio Setup ========*/
+    console.log('testing portfolio section');
     if( $('.portfolio-items').length ) {
+        console.log('portfolio items loaded');
         var $elements = $(".portfolio-items"),
             $filters = $('.portfolio-filter ul li');
         $elements.isotope();
