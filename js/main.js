@@ -46,6 +46,8 @@ $(document).ready(function() {
 
 
     /*======== SimpleBar Setup ========*/
+    //testing a fadeIn native funct
+    $('.mb-20').fadeIn(3000);
     $('.pt-page').each(function() {
         var $id = '#' + $(this).attr('id');
         new SimpleBar($($id)[0]);
